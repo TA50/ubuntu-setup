@@ -118,6 +118,12 @@ sudo usermod -aG docker $USER
 newgrp docker
 ```
 
+finally you can start the docker service:
+
+```bash
+sudo service docker start
+```
+
 ### nvm
 
 ```bash
