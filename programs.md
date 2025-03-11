@@ -76,6 +76,13 @@ sudo apt install <deb file>
 sudo apt install git
 ```
 
+set your username and email:
+
+```bash
+git config --global user.name "Awad Osman"
+git config --global user.email "awadosman997@gmail.com"
+```
+
 ### docker and docker-compose
 
 **Docker Engine**
