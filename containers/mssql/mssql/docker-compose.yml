@@ -1,5 +1,3 @@
-version: '3.9'
-
 services:
   sqlserver:
     image: mcr.microsoft.com/mssql/server
@@ -10,10 +8,6 @@ services:
       ACCEPT_EULA: "Y"
       SA_PASSWORD: "AwadMSsqlServer90!"
     volumes:
-      - sql_data:/var/opt/mssql
+      - ./sql_data:/var/opt/mssql
 
     restart: unless-stopped
-
-
-volumes:
-  sql_data:
