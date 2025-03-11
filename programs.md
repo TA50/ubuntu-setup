@@ -62,6 +62,14 @@ git clone https://github.com/zsh-users/zsh-history-substring-search.git ~/.oh-my
 
 ### tabby terminal
 
+download the .deb file from the official website and install it with apt
+
+[Tabby releases](https://github.com/Eugeny/tabby/releases/latest)
+
+```bash
+sudo apt install <deb file>
+```
+
 ### git
 
 ```bash
@@ -96,6 +104,18 @@ verify installation:
 
 ```bash
 sudo docker run hello-world
+```
+
+**Manage Docker as a non-root user**
+
+1. add the docker group if it doesn't exist
+2. add your user to the docker group
+3. revalidate group membership
+
+```bash
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
 ```
 
 ### nvm
