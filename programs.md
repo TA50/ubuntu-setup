@@ -211,4 +211,9 @@ sudo apt install neofetch
 ```bash
 sudo apt install htop
 ```
+### bashcat
+
+```bash
+sudo apt install bat
+```
 

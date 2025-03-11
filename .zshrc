@@ -19,7 +19,9 @@ alias cdsrc="cd ~/source"
 alias cdown="cd ~/Downloads"
 alias py ="python3"
 alias my-ip="curl ifconfig.me"
-
+alias cat="batcat --style=plain"
+alias zshconf="subl ~/.zshrc"
+alias zshsource="source ~/.zshrc"
 ######################### Env #####################################
 
 export PATH=$PATH:$HOME/shell-programs
