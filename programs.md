@@ -66,6 +66,8 @@ download the .deb file from the official website and install it with apt
 
 [Tabby releases](https://github.com/Eugeny/tabby/releases/latest)
 
+Then you can grab the configuration from config/tabby-config.yaml and replace it with the tabby config located in ~/.config/tabby folder under the name: `config.yaml` 
+
 ```bash
 sudo apt install <deb file>
 ```
