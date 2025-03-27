@@ -1,6 +1,15 @@
 # Gnome Settings:
 
-All the gnome settings will be available inside the `gnome-settings` file. This file contains a dump of all my settings. 
+the gnome extension settings are stored in `./extensions.txt` file.
+extensions were dumped using the following command:
 
-Use `apply-gnome-settings.sh` to apply the settings. 
+```bash
+dfconf dump /org/gnome/shell/extensions > extensions.txt
+```
+
+to restore the settings, run the following command:
+
+```bash
+dconf load /org/gnome/shell/extensions < extensions.txt
+```
 

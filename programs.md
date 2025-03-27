@@ -66,7 +66,7 @@ download the .deb file from the official website and install it with apt
 
 [Tabby releases](https://github.com/Eugeny/tabby/releases/latest)
 
-Then you can grab the configuration from config/tabby-config.yaml and replace it with the tabby config located in ~/.config/tabby folder under the name: `config.yaml` 
+Then you can grab the configuration from config/tabby-config.yaml and replace it with the tabby config located in ~/.config/tabby folder under the name: `config.yaml`
 
 ```bash
 sudo apt install <deb file>
@@ -162,7 +162,8 @@ sh -c "$(wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64
 
 ### vscode
 
-### sublime-text
+download the .deb file from the official website and install it with apt
+[VSCode releases](https://code.visualstudio.com/Download)
 
 ### postman
 
@@ -171,8 +172,6 @@ sh -c "$(wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64
 ### thunderbird
 
 ### firefox
-
-### Forticlient VPN
 
 ### Telegram
 
@@ -202,20 +201,26 @@ install texlive
 
 ## Command Line Tools
 
-### neofetch
+-   neofetch
+-   htop
+-   batcat
 
 ```bash
-sudo apt install neofetch
+sudo apt install neofetch htop bat
 ```
 
-### htop
+### tldr
+
+this needs nodejs to be installed first
 
 ```bash
-sudo apt install htop
+npm install -g tldr
 ```
-### bashcat
+
+### fzf
 
 ```bash
-sudo apt install bat
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/source/fzf
+~/.fzf/install
 ```
 
