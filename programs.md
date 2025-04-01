@@ -204,7 +204,7 @@ install texlive
 -   neofetch
 -   htop
 -   batcat
-
+-   ncdu
 ```bash
 sudo apt install neofetch htop bat
 ```
